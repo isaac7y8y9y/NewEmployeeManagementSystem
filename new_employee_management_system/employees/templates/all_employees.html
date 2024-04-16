@@ -1,0 +1,19 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Apex Inc. - List of all employees
+{% endblock %}
+
+
+{% block content %}
+  <div class="mycard">
+    <h1>Employees</h1>
+    <ul>
+      {% for x in myemployees %}
+        <li onclick="window.location = 'details/{{ x.id }}'">{{ x.firstname }} {{ x.lastname }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+{% endblock %}
+

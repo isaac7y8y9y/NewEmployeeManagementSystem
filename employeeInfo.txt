@@ -1,0 +1,4 @@
+1, Vincent, Yan, Manager, 180000
+2, Laura, Kim, Software Engineer I, 80000
+3, Andrew, Anderson, Software Engineer II, 100000
+4, Sakura, Fujiwara, Software Engieer III, 140000

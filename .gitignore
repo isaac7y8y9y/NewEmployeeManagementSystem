@@ -1,0 +1,17 @@
+# ignore any files in the directory named mystaticfiles
+new_employee_management_system/mystaticfiles/
+
+# ignore env/
+env/
+
+# ignore dqlite3 database
+new_employee_management_system/db.sqlite3
+
+# ignore credentials
+credentials.txt
+
+# ignore workspace
+workspace.code-workspace
+
+# ignore script
+new_employee_management_system/addMemberScriptTemp.py

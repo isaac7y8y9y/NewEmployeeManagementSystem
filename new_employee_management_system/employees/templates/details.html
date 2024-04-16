@@ -1,0 +1,19 @@
+{% extends "master.html" %}
+
+{% block title %}
+    Details about {{ myemployee.firstname }} {{ myemployee.lastname }}
+{% endblock %}
+
+
+{% block content %}
+    <div class="mycard">
+        <h1>{{ myemployee.firstname }} {{ myemployee.lastname }}</h1>
+  
+        <p>Role: {{ myemployee.post }}</p>
+        <p>Salary: {{ myemployee.salary }}</p>
+        <p>Joined since: {{ myemployee.joined_date }}</p>
+
+        <p>Back to <a href="/employees">Employees</a></p>
+    </div>
+    
+{% endblock %}
