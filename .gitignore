@@ -15,3 +15,5 @@ workspace.code-workspace
 
 # ignore script
 new_employee_management_system/addMemberScriptTemp.py
+
+employeeInfo.txt
