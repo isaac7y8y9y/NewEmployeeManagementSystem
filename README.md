@@ -1,4 +1,4 @@
-NewEmployeeManagementSystem is an employees' directory and management system. It is a Django application with SQLite database (will migrate to MySQL).
+NewEmployeeManagementSystem is an employees' directory and management system. It is a Django application with MySQL database.
 
 Below is the home page with link to the employees' directory.
 

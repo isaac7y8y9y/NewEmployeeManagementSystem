@@ -12,8 +12,8 @@ def employees(request):
   return HttpResponse(template.render(context, request))
 
 # This function retrieves each Employee by id and render employee details page
-def details(request, id):
-  myemployee = Employee.objects.get(id=id)
+def details(request, slug):
+  myemployee = Employee.objects.get(slug=slug)
   template = loader.get_template('details.html')
   context = {
     'myemployee': myemployee,
